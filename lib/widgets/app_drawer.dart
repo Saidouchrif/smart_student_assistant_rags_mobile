@@ -28,15 +28,13 @@ class AppDrawer extends StatelessWidget {
                 MaterialPageRoute(builder: (_) => const ProfilePage()));
             },
           ),
-
           ListTile(
-            title: const Text("Paramètres"),
+            title: const Text("Chatbot"),
             onTap: () {
               Navigator.push(context,
-                MaterialPageRoute(builder: (_) => const SettingsPage()));
+                MaterialPageRoute(builder: (_) => const ChatbotPage()));
             },
           ),
-
           ListTile(
             title: const Text("À propos"),
             onTap: () {
@@ -44,12 +42,11 @@ class AppDrawer extends StatelessWidget {
                 MaterialPageRoute(builder: (_) => const AboutPage()));
             },
           ),
-
           ListTile(
-            title: const Text("Chatbot"),
+            title: const Text("Paramètres"),
             onTap: () {
               Navigator.push(context,
-                MaterialPageRoute(builder: (_) => const ChatbotPage()));
+                MaterialPageRoute(builder: (_) => const SettingsPage()));
             },
           ),
         ],
