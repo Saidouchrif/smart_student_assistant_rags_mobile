@@ -16,6 +16,10 @@ dependencies:
   retrofit: ^4.1.0
   json_annotation: ^4.9.0
   cupertino_icons: ^1.0.8
+  geolocator: ^11.0.0
+  url_launcher: ^6.2.5
+  latlong2: ^0.9.1
+  flutter_map: ^6.1.0
 
 dev_dependencies:
   flutter_test:

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smart_student_assistant_rags/pages/map_page.dart';
 import '../pages/profile_page.dart';
 import '../pages/settings_page.dart';
 import '../pages/about_page.dart';
@@ -33,6 +34,13 @@ class AppDrawer extends StatelessWidget {
             onTap: () {
               Navigator.push(context,
                 MaterialPageRoute(builder: (_) => const ChatbotPage()));
+            },
+          ),
+           ListTile(
+            title: const Text("Localisation"),
+            onTap: () {
+              Navigator.push(context,
+                MaterialPageRoute(builder: (_) => const MapPage()));
             },
           ),
           ListTile(
